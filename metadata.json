@@ -1,0 +1,6 @@
+{
+  "name": "Gemini AI Chat",
+  "description": "An intelligent, real-world conversational AI chatbot powered by Gemini 3.8 Flash with streaming responses, web search grounding, multimodal vision, and chat history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
