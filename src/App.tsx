@@ -676,7 +676,7 @@ export default function App() {
                       Student Dashboard
                     </span>
                     <h2 className="text-2xl md:text-3xl font-black mt-2">
-                      Welcome back, {currentUser.name.split(' ')[0]}! 👋
+                      Welcome back, {currentUser?.name ? currentUser.name.split(' ')[0] : 'Student'}! 👋
                     </h2>
                     <p className="text-slate-300 text-xs md:text-sm mt-1 max-w-2xl leading-relaxed">
                       Explore live hackathons, share your project journey on the peer feed, consult
